@@ -673,7 +673,7 @@ p { margin: 0; }
 /* ---------- Social / follow cards ---------- */
 .social-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
 }
 .social-card {
@@ -710,7 +710,7 @@ p { margin: 0; }
   color: var(--stone);
   margin-top: 4px;
 }
-@media (max-width: 700px) {
+@media (max-width: 860px) {
   .social-grid { grid-template-columns: 1fr; }
 }
 
